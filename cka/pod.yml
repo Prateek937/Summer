@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: prateekPod1
+
+spec:
+  containers:
+    - image: httpd
+      name: Pod1
+
